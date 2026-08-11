@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CR7</title>
+        <style>
+            header {
+                background-color: #1a6c14;
+                color: #FFFFFF;
+                text-align: center;
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 16px;
+                border:5px solid #b11717;
+
+            }
+            main {
+                background-color: #FFFFFF;
+                color: #342B2B;
+                 max-width: 800px;
+                margin: 0 auto;
+                padding: 16px;
+            }
+            article{
+                display: flex;
+
+            }
+            img{
+                width: 80px;
+                height: 80px;
+            }
+            .artigo-autor{
+                font-weight: bold;
+               }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>CR7Universe</h1>
+            <p>Vou compartilhar informações sobre os seus clubes, titulos, gols em toda sua carreira</p>
+        </header>
+         <main>
+            <article>
+                <img src="Imagem - CR7 .png" alt="Ícone quadrado em estilo vetorizado celebrando a carreira de Cristiano Ronaldo. No centro, a silhueta do jogador de costas vestindo uma camisa vermelha e azul com o número 7. Ao fundo, um campo de futebol estilizado em tons de verde, acompanhado por ilustrações de bolas de ouro empilhadas, troféus e os escudos estilizados de clubes. Na parte inferior, lê-se o texto 'CR7's LEGACY'">
+             <div>
+                 <h2>Primeiro Post</h2>
+                 <p class="artigo-autor">Por: Miguel Camargo</p>
+                 <p>Bem-vindo ao meu novo site! Aqui vou compartilhar informações sobre a carreira de Cristiano Ronaldo.</p>
+                 <button>❤️<span>0</span></button>
+                 <button>👎<span>0</span></button>
+             </div>
+            </article>
+           <article>
+               <img src="imagem - carreira .png" alt="Infográfico quadrado do jogador Cristiano Ronaldo com a camisa da seleção de Portugal, comemorando com os punhos fechados. Ao redor da imagem, há ícones e estatísticas em destaque: 880+ Gols, 240+ Assistências, 5 prêmios Ballon d'Or e títulos incluindo 5 Champions League e 1 Eurocopa.">
+           <div>
+               <h2>Segundo Post</h2>
+               <p class="artigo-autor">Por: Miguel Camargo</p>
+               <p>Domínio, consistência e alta performance. Veja os principais marcos da carreira de CR7 em estatísticas e prêmios que mostram por que ele está no topo do futebol.</p>
+               <button>❤️<span>0</span></button>
+               <button>👎<span>0</span></button>
+           </div>
+          </article>
+        </main>
+        </body>
+        <script>
+            const botoes = document.querySelectorAll("button");
+
+            botoes.forEach( function (botao){   
+                let curtiu = false;
+                botao.addEventListener("click", botaoClicado);
+                function botaoClicado(){
+                    console.log("fui clicado");
+                    let texto = botao.querySelector("span");
+                    if (curtiu === false){
+                        texto.textContent++;
+                        curtiu = true
+
+                    }else {
+                        texto.textContent--;
+                        curtiu = false;
+
+                    }
+                }
+
+            })
+            
+            
+
+
+
+        </script>
+</html>
