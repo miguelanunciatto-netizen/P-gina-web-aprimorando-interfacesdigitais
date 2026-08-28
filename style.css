@@ -8,7 +8,7 @@
 
            }
            .tema-escuro {
-              --cor-primaria:#9c2008;
+              --cor-primaria:#2f6e1a;
               --cor-secundaria:#4c8e48;
               --cor-fundo:#090303d2 ;
               --cor-texto: #f7f1f1d2;
@@ -32,8 +32,7 @@
                 text-align: center;   
                 margin: 0 auto;
                 padding: 16px;
-                border:5px solid #b11717;
-
+               
             }
             main {
                 background-color: var(--cor-fundo);
