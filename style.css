@@ -6,7 +6,6 @@
               --cor-contraste: #f3eef7;
               --cor-botao: #f9f9f9;
 
-
            }
            
            body {
@@ -35,7 +34,7 @@
             article{
                 display: flex;
                 border: 1px solid var(--cor-primaria);
-                
+
                 margin: 16px;
                 gap: 16px ;
                 padding: 16px;
