@@ -1,4 +1,10 @@
            :root {
+              --cor-primaria: #1a6c14;
+              --cor-secundaria: #4c8e48;
+              --cor-fundo: #ffffff;
+              --cor-texto: #151428;
+              --cor-contraste: #f3eef7;
+              --cor-botao: #f9f9f9;
 
 
            }
