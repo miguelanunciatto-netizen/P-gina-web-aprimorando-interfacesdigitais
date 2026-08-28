@@ -25,6 +25,10 @@
                 display: flex;
 
                 border: 1px solid #342B2B;
+                margin: 16px;
+                gap: 16px ;
+                padding: 16px;
+
             }
             img{
                 width: 80px;
