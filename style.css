@@ -9,11 +9,11 @@
            }
            .tema-escuro {
               --cor-primaria:#9c2008;
-              --cor-secundaria:;
-              --cor-fundo: ;
-              --cor-texto: ;
-              --cor-contraste: ;
-              --cor-botao: ;
+              --cor-secundaria:#4c8e48;
+              --cor-fundo:#090303d2 ;
+              --cor-texto: #f7f1f1d2;
+              --cor-contraste:#d8cdcd ;
+              --cor-botao:#dbceced2 ;
 
            }
            .tema-escuro a {
